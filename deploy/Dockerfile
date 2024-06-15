@@ -21,4 +21,4 @@ COPY scripts scripts
 
 COPY --from=builder /opt/app/bin/dialogs /srv/dialogs
 
-ENTRYPOINT ["/srv/net"]
+ENTRYPOINT ["/srv/dialogs"]
